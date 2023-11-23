@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "isocam",
+  "version": "${1.0}",
+
+  "name": "Iso Cam",
+  "description": "Gives an additional camera perspective of isometric!",
+  "authors": [
+    "Zimo"
+  ],
+  "contact": {
+    "sources": "https://github.com/mc-zimo/iso-cam-mod-1.19"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/isocam/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.zimo.isocam.IsoCamMod"
+    ]
+  },
+  "mixins": [
+    "isocam.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.zimo.isocam.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "CameraMixin",
+    "GameRendererMixin",
+    "PerspectiveMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
